@@ -1,0 +1,22 @@
+uuid: 59e2002e-2e0c-4280-b708-5cef1020033e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - umami_pantheon
+_core:
+  default_config_hash: YC1H0JGjRvoA9RedtLhXY-9AYUTPz3XxcmDb_3H-tWY
+id: umami_pantheon_help
+theme: umami_pantheon
+region: highlighted
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

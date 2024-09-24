@@ -1,0 +1,22 @@
+uuid: 8dc84d08-d147-48af-96b7-526cf3b51881
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - umami_pantheon
+_core:
+  default_config_hash: R0XK_KzE-HPbKLfcvVjZF2FL79MUEIipq_nDvje9MRQ
+id: umami_pantheon_content
+theme: umami_pantheon
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

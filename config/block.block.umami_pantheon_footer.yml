@@ -1,0 +1,27 @@
+uuid: c649c0bb-f5e3-4638-ab52-d1dbc700f925
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - umami_pantheon
+_core:
+  default_config_hash: 9SflLKjOukDutHBBc0A8bldXeitoSFwFyezQoYqiQxI
+id: umami_pantheon_footer
+theme: umami_pantheon
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Tell us what you think'
+  label_display: '1'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

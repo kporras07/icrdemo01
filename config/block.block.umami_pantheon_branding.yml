@@ -1,0 +1,25 @@
+uuid: 81095ffb-0254-431c-b7fe-91a2056dfa49
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - umami_pantheon
+_core:
+  default_config_hash: KpzA0z4GVAQdiudD8S4qJXkxUCkTDFtsMkS9ZAG9-Xo
+id: umami_pantheon_branding
+theme: umami_pantheon
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

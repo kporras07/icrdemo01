@@ -1,0 +1,27 @@
+uuid: 7e96afb3-613f-401b-ba69-7f0346fa0121
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - umami_pantheon
+_core:
+  default_config_hash: iDZiXP2IUN3qEE__zNOAVdC9bO4zxZ3IB2OsPZ_dezM
+id: umami_pantheon_account_menu
+theme: umami_pantheon
+region: pre_header
+weight: 2
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }
