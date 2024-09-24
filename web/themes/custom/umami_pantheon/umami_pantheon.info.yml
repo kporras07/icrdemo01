@@ -4,9 +4,9 @@ base theme: false
 description: 'The theme used for the Umami food magazine demonstration site.'
 version: VERSION
 libraries:
-  - umami/classy.base
+  - umami_pantheon/classy.base
   - core/normalize
-  - umami/global
+  - umami_pantheon/global
 
 libraries-override:
   layout_builder/twocol_section:
@@ -24,29 +24,29 @@ libraries-override:
 
 libraries-extend:
   core/drupal.message:
-    - umami/messages
+    - umami_pantheon/messages
   core/drupal.dialog:
-    - umami/classy.dialog
+    - umami_pantheon/classy.dialog
   core/drupal.dropbutton:
-    - umami/classy.dropbutton
+    - umami_pantheon/classy.dropbutton
   core/drupal.progress:
-    - umami/classy.progress
+    - umami_pantheon/classy.progress
   file/drupal.file:
-    - umami/classy.file
+    - umami_pantheon/classy.file
   filter/drupal.filter.admin:
-    - umami/filter
+    - umami_pantheon/filter
   filter/drupal.filter:
-    - umami/filter
+    - umami_pantheon/filter
   media/media_embed_ckeditor_theme:
-    - umami/classy.media_embed_ckeditor_theme
+    - umami_pantheon/classy.media_embed_ckeditor_theme
   media_library/view:
-    - umami/classy.media_library
+    - umami_pantheon/classy.media_library
   media_library/widget:
-    - umami/classy.media_library
+    - umami_pantheon/classy.media_library
   user/drupal.user:
-    - umami/user
+    - umami_pantheon/user
   node/drupal.node.preview:
-    - umami/drupal.node.preview
+    - umami_pantheon/drupal.node.preview
 
 regions:
   pre_header: Pre-header
